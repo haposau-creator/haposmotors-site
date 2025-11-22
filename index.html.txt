@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAPOS MOTORS | 자동차 수리 및 정비 전문가</title>
+    <style>
+        /* 기본 스타일 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #222;
+            color: #fff;
+            padding-top: 20px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        /* 히어로 섹션 */
+        #hero {
+            background: #e8491d;
+            color: #fff;
+            min-height: 350px;
+            text-align: center;
+            padding: 50px 0;
+        }
+        #hero h2 {
+            margin-top: 0;
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+        #hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #333;
+            color: #fff;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background: #444;
+        }
+        /* 주요 정보 섹션 */
+        #main-info {
+            padding: 30px 0;
+            background: #fff;
+            text-align: center;
+        }
+        .info-box {
+            float: left;
+            width: 30%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin: 0 1.5%;
+        }
+        .info-box h3 {
+            color: #e8491d;
+        }
+        /* 연락처 */
+        #contact-info {
+            padding: 40px 0;
+            text-align: center;
+            background: #333;
+            color: #fff;
+        }
+        #contact-info a {
+            color: #e8491d;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>HAPOS MOTORS</h1>
+            <p>자동차 수리 및 정비 전문가 (호주 시드니)</p>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>📞 지금 바로 전화하세요! (긴급 수리 환영)</h2>
+            <p>믿을 수 있는 기술력, 고객님의 안전을 책임지는 하포스모터스입니다.</p>
+            <a href="tel:04xxxxxxxx" class="cta-button">04XX XXX XXX</a> 
+            <p style="margin-top: 15px; font-size: 16px;">(클릭 시 모바일에서 전화 연결됩니다)</p>
+        </div>
+    </section>
+
+    <section id="main-info">
+        <div class="container">
+            <h2 style="margin-bottom: 40px; color: #e8491d;">핵심 서비스</h2>
+            <div class="info-box">
+                <h3>엔진 & 변속기</h3>
+                <p>최신 장비로 정확하게 진단하고, 믿을 수 있는 부품만을 사용하여 수리합니다.</p>
+            </div>
+            <div class="info-box">
+                <h3>브레이크 & 안전</h3>
+                <p>브레이크 패드, 디스크 교체 등 고객님의 안전을 위한 필수 점검을 전문적으로 수행합니다.</p>
+            </div>
+            <div class="info-box">
+                <h3>정기 점검 & 오일</h3>
+                <p>제조사 권장 사항에 따른 오일 교환 및 꼼꼼한 정기 차량 상태 종합 점검.</p>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+    </section>
+
+    <section id="contact-info">
+        <div class="container">
+            <h2>오시는 길</h2>
+            <p>주소: 123 Main Street, Sydney NSW 2000, Australia</p>
+            <p>영업 시간: 월요일 - 금요일 (8:00 AM - 5:00 PM), 토요일 (9:00 AM - 1:00 PM)</p>
+            <p style="margin-top: 20px;">더 자세한 정보는 <a href="mailto:info@haposmotors.com.au">info@haposmotors.com.au</a>로 문의하세요.</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 HAPOS MOTORS. All rights reserved.
+    </footer>
+</body>
+</html>
