@@ -10,6 +10,20 @@
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: 'Roboto', sans-serif; background: #f0f2f5; color: #333; line-height: 1.6; }
 
+    /* 경고 */
+    .warning {
+      background: #ffe6e6;
+      color: #990000;
+      padding: 20px;
+      border-left: 8px solid #cc0000;
+      border-radius: 8px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.1em;
+      max-width: 1000px;
+      margin: 20px auto;
+    }
+
     header {
       background: linear-gradient(90deg, #003366, #0055a5);
       color: #fff;
@@ -78,20 +92,6 @@
     }
     .btn:hover { background: #e6b800; }
 
-    /* 경고 */
-    .warning {
-      background: #ffe6e6;
-      color: #990000;
-      padding: 20px;
-      border-left: 8px solid #cc0000;
-      border-radius: 8px;
-      text-align: center;
-      font-weight: bold;
-      font-size: 1.1em;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
     footer {
       background: #003366;
       color: #fff;
@@ -108,58 +108,63 @@
 </head>
 <body>
 
+<!-- 경고 안내문 제일 위 -->
+<div class="warning">
+  ⚠️ 주의: <strong>https://haposmotors.com</strong> 은 가짜 스캠 웹사이트입니다.<br>
+  ⚠️ Warning: <strong>https://haposmotors.com</strong> is a fraudulent/scam website.<br>
+  이 사이트로는 절대 연락하지 마시고, 공식 연락처 02 9764 3564 로 문의해 주세요.<br>
+  Do NOT contact this site. Please use the official phone number: 02 9764 3564
+</div>
+
 <header>
-  <img src="logo.png" alt="HAPOS MOTORS 로고">
+  <img src="logo.png" alt="HAPOS MOTORS 로고 / Logo">
   <h1>HAPOS MOTORS</h1>
   <nav>
-    <a href="#about">회사 소개</a>
-    <a href="#services">서비스</a>
-    <a href="#contact">연락처</a>
-    <a href="#warning">공지</a>
+    <a href="#about">회사 소개 / About</a>
+    <a href="#services">서비스 / Services</a>
+    <a href="#contact">연락처 / Contact</a>
   </nav>
 </header>
 
 <section id="about">
-  <h2>회사 소개</h2>
-  <p>HAPOS MOTORS는 고객 만족과 신뢰를 최우선으로 하는 시드니 기반 자동차 정비 및 서비스 전문 업체입니다.  
-  정직과 전문성을 바탕으로 안전한 차량 관리를 제공합니다.</p>
+  <h2>회사 소개 / About</h2>
+  <p>HAPOS MOTORS는 고객 만족과 신뢰를 최우선으로 하는 시드니 기반 자동차 정비 및 서비스 전문 업체입니다.<br>
+     HAPOS MOTORS is a Sydney-based auto repair and service company prioritizing customer satisfaction and trust.<br>
+  정직과 전문성을 바탕으로 안전한 차량 관리를 제공합니다.<br>
+  We provide safe vehicle maintenance based on honesty and professionalism.</p>
 </section>
 
 <section id="services">
-  <h2>서비스</h2>
+  <h2>서비스 / Services</h2>
   <div class="service-card">
-    <h3>정기 점검</h3>
-    <p>차량 안전과 성능을 위한 정기 점검 및 유지보수</p>
+    <h3>정기 점검 / Regular Check-up</h3>
+    <p>차량 안전과 성능을 위한 정기 점검 및 유지보수<br>
+       Regular maintenance and check-up for vehicle safety and performance</p>
   </div>
   <div class="service-card">
-    <h3>타이어 & 휠</h3>
-    <p>타이어 교체, 밸런스, 휠 얼라인먼트 전문 서비스</p>
+    <h3>타이어 교체 / Tire Replacement</h3>
+    <p>타이어 교체 및 밸런스 전문 서비스<br>
+       Tire replacement and balancing services</p>
   </div>
   <div class="service-card">
-    <h3>브레이크 & 서스펜션</h3>
-    <p>브레이크 패드, 디스크, 서스펜션 수리 및 교체</p>
+    <h3>브레이크 & 서스펜션 / Brake & Suspension</h3>
+    <p>브레이크 패드, 디스크, 서스펜션 수리 및 교체<br>
+       Brake pads, discs, and suspension repair & replacement</p>
   </div>
   <div class="service-card">
-    <h3>전기 & 엔진</h3>
-    <p>발전기, 배터리, 엔진 및 전기 계통 전문 수리</p>
+    <h3>전기 & 엔진 / Electrical & Engine</h3>
+    <p>발전기, 배터리, 엔진 및 전기 계통 전문 수리<br>
+       Alternator, battery, engine and electrical system repair</p>
   </div>
 </section>
 
 <section id="contact">
-  <h2>연락처</h2>
-  <p>주소: 4 Crane St, Homebush NSW 2140</p>
-  <p>전화: 02 9764 3564</p>
-  <p>영업시간: 월~금 8:00~18:00, 토 8:00~12:00</p>
-  <a href="tel:0297643564" class="btn">전화하기</a>
-  <a href="https://www.google.com/maps/dir/?api=1&destination=4+Crane+St+Homebush+NSW+2140" target="_blank" class="btn">길찾기</a>
-</section>
-
-<section id="warning">
-  <h2>중요 공지</h2>
-  <div class="warning">
-    ⚠️ 주의: <strong>https://haposmotors.com</strong> 은 가짜 스캠 웹사이트입니다.<br>
-    이 사이트로는 절대 연락하지 마시고, 공식 연락처 02 9764 3564 로 문의해 주세요.
-  </div>
+  <h2>연락처 / Contact</h2>
+  <p>주소 / Address: 4 Crane St, Homebush NSW 2140</p>
+  <p>전화 / Phone: 02 9764 3564</p>
+  <p>영업시간 / Business Hours: 월~금 8:00~18:00, 토 8:00~12:00</p>
+  <a href="tel:0297643564" class="btn">전화하기 / Call</a>
+  <a href="https://www.google.com/maps/dir/?api=1&destination=4+Crane+St+Homebush+NSW+2140" target="_blank" class="btn">길찾기 / Directions</a>
 </section>
 
 <footer>
